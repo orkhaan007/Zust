@@ -22,13 +22,6 @@ This is a social media application developed using ASP.NET MVC, Entity Framework
 
 ### Prerequisites
 
-- .NET SDK 7.0 or later
+- .NET SDK 8.0
 - SQL Server
 - Visual Studio 2022 or later (optional but recommended)
-
-### Installation Steps
-
-1. **Clone the repository:**
-
-   ```bash
-   git clone https://github.com/yourusername/social-media-app.git
