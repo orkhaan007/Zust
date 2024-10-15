@@ -1,0 +1,107 @@
+﻿    <div class="content-page-box-area">
+        <div class="row">
+            <div class="col-lg-3 col-md-12">
+                <aside class="widget-area">
+                    <div class="widget widget-view-profile">
+                        <div class="profile-box d-flex justify-content-between align-items-center">
+                            <a href="#">
+                                <img id="indexUserImagePath" src="" alt="image" style="width: 100px; height: 100px;" />
+                            </a>
+                            <div class="text ms-2">
+                                <h3>
+                                    <a id="indexUserUsername" href="/Settings/MyProfile"></a>
+                                </h3>
+                            </div>
+                        </div>
+                        <ul class="profile-statistics">
+                            <li>
+                                <a href="#">
+                                    <span id="indexLikeCount" class="item-number"></span>
+                                    <span class="item-text">Likes</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span id="indexFollowingCount" class="item-number"></span>
+                                    <span class="item-text">Following</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span id="indexFollowersCount" class="item-number"></span>
+                                    <span class="item-text">Followers</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="profile-btn">
+                            <a href="/Settings/MyProfile" class="default-btn">View Profile</a>
+                        </div>
+                    </div>
+                <div class="widget widget-watch-video">
+                    <h3 class="widget-title">Watch Video</h3>
+
+                    <div class="watch-video-slides owl-carousel owl-theme">
+                        <div class="video-item">
+                            <img src="~/assets/images/watch-video/video-1.jpg" alt="image">
+
+                            <a href="https://www.youtube.com/watch?v=ODfy2YIKS1M" class="video-btn popup-youtube">
+                                <i class="ri-play-fill"></i>
+                            </a>
+                        </div>
+                        <div class="video-item">
+                            <img src="~/assets/images/watch-video/video-2.jpg" alt="image">
+
+                            <a href="https://www.youtube.com/watch?v=ODfy2YIKS1M" class="video-btn popup-youtube">
+                                <i class="ri-play-fill"></i>
+                            </a>
+                        </div>
+                        <div class="video-item">
+                            <img src="~/assets/images/watch-video/video-3.jpg" alt="image">
+
+                            <a href="https://www.youtube.com/watch?v=ODfy2YIKS1M" class="video-btn popup-youtube">
+                                <i class="ri-play-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                </aside>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="news-feed-area">
+                    <div class="news-feed news-feed-form">
+                        <h3 class="news-feed-title">Create New Post</h3>
+
+                    <form id="postForm" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <textarea name="message" id="description" class="form-control" placeholder="Write something here..."></textarea>
+                        </div>
+                        <ul class="button-group d-flex justify-content-between align-items-center">
+                            <li class="photo-btn">
+                                <input type="file" id="image" name="image" class="form-control" style="display: none;">
+                                <button type="button" id="photoButton"><i class="flaticon-gallery"></i> Photo</button>
+                            </li>
+                            <li class="post-btn">
+                                <button type="button" id="postButton">Post</button>
+                            </li>
+                        </ul>
+                    </form>
+
+                    <div id="postsContainer"></div>
+
+                    </div>
+                </div>
+            </div>
+        <div class="col-lg-3 col-md-12">
+            <aside class="widget-area">
+                <div class="widget widget-weather">
+                    <div class="weather-image">
+                        <a href="#"><img src="~/assets/images/weather/weather.jpg" alt="image"></a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+        </div>
+  </div>
+
+<script src="~/js/posts.js"></script>
