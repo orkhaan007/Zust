@@ -1,4 +1,4 @@
-# Social Media Application
+# Zust - Social Media Application
 
 This is a social media application developed using ASP.NET MVC, Entity Framework, SignalR, and AJAX. The application allows users to create posts, interact in real-time via live chat, and follow other users.
 
